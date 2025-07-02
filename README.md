@@ -15,7 +15,9 @@ language_translator/
 │   └── styles.css          # (Optional) Extra Tailwind styles if needed
 ├── requirements.txt        # Python dependencies
 └── README.md               # This project documentation
-🚀 Features
+
+```markdown
+ 🚀 Features
 Translate between 100+ languages using M2M100
 
 Fast, responsive UI with Tailwind CSS
@@ -39,21 +41,15 @@ Facebook M2M100 Model – Multilingual transformer model
 
 🔧 Setup Instructions
 ✅ 1. Clone the Repository
-bash
-Copy code
-git clone https://github.com/yourusername/language_translator.git
+git clone https://github.com/saugatpoudel10/language_translator.git
 cd language_translator
 ✅ 2. Create a Virtual Environment (Optional but Recommended)
-bash
-Copy code
 python -m venv venv
 # Activate on Windows
 venv\Scripts\activate
 # Activate on Linux/macOS
 source venv/bin/activate
 ✅ 3. Install Dependencies
-bash
-Copy code
 pip install -r requirements.txt
 📦 requirements.txt
 txt
@@ -63,13 +59,8 @@ transformers==4.41.1
 torch
 sentencepiece
 You can install them manually with:
-
-bash
-Copy code
 pip install Flask transformers torch sentencepiece
 ▶️ Run the App
-bash
-Copy code
 python app.py
 Open your browser and visit: http://127.0.0.1:5000/
 
@@ -101,9 +92,6 @@ The first time you run the app, the model (~1.94 GB) will be downloaded automati
 On Windows, you might see a symlink warning. It's safe to ignore it.
 
 For faster downloads, install:
-
-bash
-Copy code
 pip install huggingface_hub[hf_xet]
 💡 Future Improvements
 Auto language detection using langdetect
@@ -128,10 +116,7 @@ Tailwind CSS
 📜 License
 This project is open source and available under the MIT License.
 
-🙋‍♂️ Author
-Developed by Your Name
-📧 your.email@example.com
-🌐 GitHub
+
 
 
 
